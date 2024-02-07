@@ -12,12 +12,12 @@ body {
 }
 
 header {
-  background-color: black;
-  padding: 20px;
   display: flex;
   align-items: center;
-  color: white;
   justify-content: space-between;
+  color: white;
+  background-color: black;
+  padding: 20px; 
 }
 
 header a {
@@ -25,6 +25,15 @@ header a {
   text-decoration: none;
   font-weight: bolder;
 }
+
+.watches {
+  font-size: 25px;
+}
+
+/*
+a[href*='index.html'] {
+  font-size: 25px;
+}*/
 
 header ul {
   display: flex;
@@ -83,23 +92,29 @@ main {
   color: white;
   padding: 20px;
   border-radius: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .banner nav {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.banner nav a span {
+.banner nav a {
   color: white;
   font-size: 14px;
 }
 
 .banner nav a img {
   width: 60px;
+}
+
+.banner img:hover {
+  transform: scale(2);
+  transition: all 2s;
+  opacity: 0.9;
 }
 
 .video {
@@ -112,32 +127,41 @@ main {
   border-radius: 15px;
 }
 
+
 .origen h3 {
   margin-top: 25px;
   margin-bottom: 10px;
   text-decoration: underline;
 }
 
-.origen p {
+:is(.origen p, .origen img, span, .editorial p) {
   margin-bottom: 10px;
 }
 
-.origen img,
-span {
-  padding-left: 200px; 
+.origen img, span {
+  padding-left: 150px; 
   font-weight: 600; 
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
+}
+
+form {
+  background-color: greenyellow;
+  border: 3px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+  width: 808px;
 }
       
 .editorial {
   margin-top: 30px;
   color: blue;
   font-weight: bolder;
+  margin-bottom: 70px;
 }
 
-.editorial p {
+/*.editorial p {
   margin-bottom: 10px;
-}
+}*/
  
 /* Footer */
  
