@@ -422,10 +422,72 @@ body .las-colecciones {
   background-color: rgb(255, 229, 143);
 }
 
-.img-breitling img {
-  width: 30%;
-  margin-left: 0;
+/*
+.img-breitling, .modelos-b {
+  display: grid;
+  grid-template-rows: 2fr 1fr 2fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  grid-template-areas: 
+  'av ti to'
+  'av ti to'
+  'su pr sh
+  ´su pr sh; 
+
 }
+
+.img-breitling {
+  grid-area: av;
+}
+
+.img-breitling {
+  grid-area: ti;
+}
+
+.img-breitling {
+  grid-area: to;
+}
+
+.img-breitling {
+  grid-area: su;
+}
+
+.img-breitling {
+  grid-area: pr;
+}
+/*.img-breitling, .modelos-b  {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;  
+}
+  
+.img-breitling {
+  max-width: 275px;
+  width: 100%;
+  height: 450px;
+  background-color: blue;
+  overflow-x: auto;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  border: 14px solid rgb(71, 65, 65);
+  margin: 0 auto;
+}
+
+:is(.img-breitling) img {
+    width: 100%;
+  scroll-snap-align: center;
+  justify-content: space-around;
+}*/
+
+.img-breitling img {
+  width: 100%;  
+}
+
+.img-breitling h5 { 
+  display: flex;
+  justify-content: center;
+}
+
 /*----------------------------------*/
 
 /* Rolex */
