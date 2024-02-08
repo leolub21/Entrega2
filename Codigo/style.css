@@ -11,6 +11,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Mobile */
+@media only screen and (max-width: 480px) {
+  img, section form, .video, .carousel-tag, .modelos-tag, h4, .FA, video {
+    width: 100%;
+  } 
+}
+
 header {
   display: flex;
   align-items: center;
@@ -336,44 +343,53 @@ video {
 
 /* omega.html*/
 
+.omega-w { 
+  margin-top: 515px;
+}
+
 .relojes h1 {
-  margin-bottom: 30px;
-  margin-left: 40px;
+  margin-bottom: 5px;
+  margin-left: 30px;
   color: rgb(192, 33, 33);
   background-color: rgba(88, 147, 202, 0.767);
 }
 
 .relojes section h2 {
-  margin-bottom: 10px;
+  margin-bottom: 2px;
   text-decoration: underline;
   font-family: cursive, sans-serif, 'Arial Narrow', Arial;
 }
 
 .relojes section p {
-  margin-bottom: 10px;
-  font-weight: 800;
+  margin-bottom: 2px;
+  font-weight: 900;
 }
 
 .relojes section a {
-  margin-bottom: 25px;
+  margin-bottom: 12px;
   display: block;
   color: rgb(192, 33, 33);
   font-weight: 700;
 }
-
-.fondo-reloj {
+    
+.fondo-reloj {  
   background-image: url('images/omega-seamaster-diver-300m-omega-diver-splash.jpg');
-  background-position: center;
   background-size: cover;
-  opacity: .7;
+  background-position: center;  
+  opacity: 0.6;
   z-index: -1;
-  height: 150vh;
+  height: 130vh;
   width: 100vw;
   position: absolute;
-  top: 0;  
+  top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  margin-bottom: 500px; 
+}
+
+.carousel-item {
+  background-color: rgb(166, 182, 201);  
 }
 
 /*--------------------------------------------------*/
